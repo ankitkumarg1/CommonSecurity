@@ -36,6 +36,9 @@
                             <constraint firstItem="SZp-sC-vrc" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="lJ0-uv-bzw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="containerView" destination="SZp-sC-vrc" id="wZ1-tI-gMJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
