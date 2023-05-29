@@ -1,6 +1,6 @@
 # CommonSecurity
 
-[![CI Status](https://img.shields.io/travis/ankit.gupta@monstar-lab.com/CommonSecurity.svg?style=flat)](https://travis-ci.org/ankit.gupta@monstar-lab.com/CommonSecurity)
+[![CI Status](https://img.shields.io/travis/guptaankitkumar06@gmail.com/CommonSecurity.svg?style=flat)](https://travis-ci.org/guptaankitkumar06@gmail.com//CommonSecurity)
 [![Version](https://img.shields.io/cocoapods/v/CommonSecurity.svg?style=flat)](https://cocoapods.org/pods/CommonSecurity)
 [![License](https://img.shields.io/cocoapods/l/CommonSecurity.svg?style=flat)](https://cocoapods.org/pods/CommonSecurity)
 [![Platform](https://img.shields.io/cocoapods/p/CommonSecurity.svg?style=flat)](https://cocoapods.org/pods/CommonSecurity)
@@ -22,7 +22,7 @@ pod 'CommonSecurity'
 
 ## Author
 
-ankit.gupta@monstar-lab.com, ankit.gupta@neosoftmail.com
+guptaankitkumar06@gmail.com
 
 ## License
 

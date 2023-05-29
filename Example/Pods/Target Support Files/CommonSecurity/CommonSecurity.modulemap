@@ -1,0 +1,6 @@
+framework module CommonSecurity {
+  umbrella header "CommonSecurity-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "CommonSecurity",
+  "version": "0.1.0",
+  "summary": "A short description of CommonSecurity.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ankit.gupta@monstar-lab.com/CommonSecurity",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ankit.gupta@monstar-lab.com": "ankit.gupta@neosoftmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ankit.gupta@monstar-lab.com/CommonSecurity.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CommonSecurity/Classes/**/*"
+}

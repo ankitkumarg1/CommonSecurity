@@ -1,0 +1,16 @@
+PODS:
+  - CommonSecurity (0.1.0)
+
+DEPENDENCIES:
+  - CommonSecurity (from `../`)
+
+EXTERNAL SOURCES:
+  CommonSecurity:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CommonSecurity: f1e14923e4bf897552f8bebd5b8bf035c33da440
+
+PODFILE CHECKSUM: bdfaf56c24dc7a62a96d9600b6a7804176517c29
+
+COCOAPODS: 1.11.3
