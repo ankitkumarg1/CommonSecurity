@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/ankitkumarg1/CommonSecurity'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'guptaankitkumar06@gmail.com' }
-  s.source           = { :git => 'https://github.com/ankitkumarg1/CommonSecurity.git', :tag => 0.0.1 }
+  s.author           =  { 'Ankit Gupta' => 'guptaankitkumar06@gmail.com' }
+  s.source           = { :git => 'https://github.com/ankitkumarg1/CommonSecurity.git', :tag => '0.0.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
