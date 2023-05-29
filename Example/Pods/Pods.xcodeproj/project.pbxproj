@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		017B72C6546D2A7B53FE6B65A9CB929C /* CommonSecurity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1AF1DB4A33524AD045B4CDD1D743FF /* CommonSecurity-dummy.m */; };
+		180818052A24EABB00AF6B88 /* UIView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180818042A24EABB00AF6B88 /* UIView_Ext.swift */; };
 		6108DD7B6C046DCD500F93B8414CF9A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6B848C54246DB006579706A53FE06819 /* Pods-CommonSecurity_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8486660B975D8B75979DD2001F79C2 /* Pods-CommonSecurity_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71DE2D8C782206B6C9D0D4A547C61E51 /* Pods-CommonSecurity_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 912FD569C766FE79FD0F3D9F9021E3A3 /* Pods-CommonSecurity_Example-dummy.m */; };
@@ -16,7 +17,6 @@
 		D1DB745E156C7709118DAF0B8A2BEA69 /* Pods-CommonSecurity_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6E69AE1528C72A6B849BB53D8BE464 /* Pods-CommonSecurity_Tests-dummy.m */; };
 		F1DE84B5157FDAD4D4F6DDA6FBFD4D1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F29A3091FC79B0148F2DA883F770165E /* CommonSecurity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7534E5CDB04B4661576A65C562BC85 /* CommonSecurity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F716E4D6E55E7284A49A04C7E4A360C0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3897B7DE20BC83A4964B99221FA971 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +39,11 @@
 /* Begin PBXFileReference section */
 		0427E6D0BFE8976BB2C16F3C58D4D3E0 /* CommonSecurity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonSecurity-prefix.pch"; sourceTree = "<group>"; };
 		07222F8024535B9CACC22B52B2D6EE38 /* Pods-CommonSecurity_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonSecurity_Example.modulemap"; sourceTree = "<group>"; };
+		180818042A24EABB00AF6B88 /* UIView_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView_Ext.swift; path = CommonSecurity/Classes/UIView_Ext.swift; sourceTree = "<group>"; };
 		18F3DE3595194C74D93B53C359EC61AB /* Pods-CommonSecurity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonSecurity_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		21A486DFC3C0DF37ACE583AFE9FEAF78 /* Pods-CommonSecurity_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonSecurity_Example-Info.plist"; sourceTree = "<group>"; };
 		2B1AF1DB4A33524AD045B4CDD1D743FF /* CommonSecurity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonSecurity-dummy.m"; sourceTree = "<group>"; };
 		32A1F1B4CA9688FC774B57BCBAED9ABF /* CommonSecurity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CommonSecurity.modulemap; sourceTree = "<group>"; };
-		3E3897B7DE20BC83A4964B99221FA971 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CommonSecurity/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		49AFF184DA029CF8C231337911CC6FBF /* CommonSecurity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonSecurity.release.xcconfig; sourceTree = "<group>"; };
 		52F537EE7EA14DE5F7F3762A979ACC53 /* Pods-CommonSecurity_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonSecurity_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		541FD319398684BC4E1DAE64C452E1D1 /* CommonSecurity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonSecurity.debug.xcconfig; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		BE7FF499444AA23B6252E65209586CC3 /* Pods-CommonSecurity_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonSecurity_Tests.modulemap"; sourceTree = "<group>"; };
 		C10811EDA2F8318D7FB7241951C0AF0C /* Pods-CommonSecurity_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonSecurity_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C52DD3A7869E508042712EAC0B4C2BC7 /* Pods-CommonSecurity_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonSecurity_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CDD219515EFF910038660FF7F6216116 /* CommonSecurity */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonSecurity; path = CommonSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD219515EFF910038660FF7F6216116 /* CommonSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50214BDF83DC5C0C976FEB5E4D44675 /* Pods-CommonSecurity_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CommonSecurity_Tests"; path = Pods_CommonSecurity_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E853FD2BF430A8423A57603241F722CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F72BAA22F1B40F27AF65D8562F5CEE6A /* Pods-CommonSecurity_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonSecurity_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		977BA5D12CB260C19B3FDE6BD7B46EDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDD219515EFF910038660FF7F6216116 /* CommonSecurity */,
+				CDD219515EFF910038660FF7F6216116 /* CommonSecurity.framework */,
 				FA899DB507E2A8F66960C9F492A2C2C0 /* Pods_CommonSecurity_Example.framework */,
 				D50214BDF83DC5C0C976FEB5E4D44675 /* Pods-CommonSecurity_Tests */,
 			);
@@ -215,7 +215,7 @@
 		DCC41D59EA410CAB5DA49CF738D3FC35 /* CommonSecurity */ = {
 			isa = PBXGroup;
 			children = (
-				3E3897B7DE20BC83A4964B99221FA971 /* ReplaceMe.swift */,
+				180818042A24EABB00AF6B88 /* UIView_Ext.swift */,
 				5DF8A6899488E2E6B08D36E17A814454 /* Pod */,
 				CC2A7230DEE5E1430AA41A03DED3C6C5 /* Support Files */,
 			);
@@ -306,7 +306,7 @@
 			);
 			name = CommonSecurity;
 			productName = CommonSecurity;
-			productReference = CDD219515EFF910038660FF7F6216116 /* CommonSecurity */;
+			productReference = CDD219515EFF910038660FF7F6216116 /* CommonSecurity.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -319,6 +319,9 @@
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					94AEB6B76D8498E38184597BE02F2845 = {
+						LastSwiftMigration = 1430;
+					};
+					DD819483EAA1312763D73FE048343A8D = {
 						LastSwiftMigration = 1430;
 					};
 				};
@@ -389,7 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				017B72C6546D2A7B53FE6B65A9CB929C /* CommonSecurity-dummy.m in Sources */,
-				F716E4D6E55E7284A49A04C7E4A360C0 /* ReplaceMe.swift in Sources */,
+				180818052A24EABB00AF6B88 /* UIView_Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 541FD319398684BC4E1DAE64C452E1D1 /* CommonSecurity.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -541,6 +545,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -712,6 +717,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 49AFF184DA029CF8C231337911CC6FBF /* CommonSecurity.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

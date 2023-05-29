@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CommonSecurity'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'A short description of CommonSecurity.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           =  { 'Ankit Gupta' => 'guptaankitkumar06@gmail.com' }
-  s.source           = { :git => 'https://github.com/ankitkumarg1/CommonSecurity.git', :tag => '0.0.3' }
+  s.source           = { :git => 'https://github.com/ankitkumarg1/CommonSecurity.git', :tag => '0.0.4' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'

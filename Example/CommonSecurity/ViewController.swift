@@ -11,10 +11,12 @@ import CommonSecurity
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var containerView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.view.addCornerRadius(20)
+        self.containerView.addCornerRadius(20)
     }
 
     override func didReceiveMemoryWarning() {
